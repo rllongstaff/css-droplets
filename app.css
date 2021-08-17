@@ -115,3 +115,35 @@ footer p {
   top: 12%;
   left: 40%;
 }
+
+.drop:nth-child(2) {
+  transform: scale(0.2) translate(1170px, -200px);
+  border-radius: 66% 34% 43% 57% / 61% 54% 46% 59%; 
+  box-shadow: 7px 7px 8px 1px rgba(70,63,58,0.25),
+  inset 2px 4px 8px 1px rgba(255,255,255,0.91),
+  inset 8px 10px 18px 2px rgba(0,0,0,0.2);
+}
+
+.drop:nth-child(3) {
+  transform: scale(1.2) translate(317px, 114px);
+  border-radius: 52% 48% 54% 46% / 50% 43% 57% 50%; 
+  box-shadow: 7px 7px 8px 1px rgba(70,63,58,0.25),
+  inset 2px 4px 8px 1px rgba(255,255,255,0.91),
+  inset 8px 10px 18px 2px rgba(0,0,0,0.2);
+}
+
+.drop:nth-child(4) {
+  transform: scale(0.1) translate(2059px, 928px);
+  border-radius: 52% 48% 54% 46% / 50% 43% 57% 50%; 
+  box-shadow: 7px 7px 8px 1px rgba(70,63,58,0.50),
+  inset 2px 4px 8px 1px rgba(255,255,255,0.91),
+  inset 8px 10px 18px 2px rgba(0,0,0,0.4);
+}
+
+.drop:nth-child(5) {
+  transform: scale(0.4) translate(395px, 42px);
+  border-radius: 50% 50% 49% 51% / 56% 47% 53% 44%; 
+  box-shadow: 7px 7px 8px 1px rgba(70,63,58,0.25),
+  inset 2px 4px 8px 1px rgba(255,255,255,0.91),
+  inset 8px 10px 18px 2px rgba(0,0,0,0.2);
+}
