@@ -45,7 +45,7 @@ h1 {
 header {
   text-align: center;
   background-color: #E0AFA0;
-  height: 20vh;
+  height: 30vh;
   text-shadow: 1px 1px 0px rgba(70, 63, 58, 1);
   padding: 2rem 0;
 }
@@ -58,13 +58,13 @@ header p {
 
 main {
   background-color: #F4F3EE;
-  height: 73vh
+  height: 55vh
 }
 
 footer {
   background-color: #8A817C;
   padding: 1.2rem 0;
-  height: 7vh;
+  height: 15vh;
 }
 
 footer p {
@@ -152,30 +152,44 @@ footer p {
   h1 {
     font-size: 4rem;
   }
+
+  header {
+    height: 30vh;
+  }
+
+  main {
+    height: 60vh;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
   .droplets {
     width: 700px;
   }
+
   .drop {
     height: 100px;
     width: 100px;
     top: 67px;
     left: 89px;
   }
+
   .drop:nth-child(2) {
     transform: scale(0.2) translate(1170px, -200px);
-
   }
+
   .drop:nth-child(3) {
     transform: scale(1.2) translate(317px, 114px);
-
   }
+
   .drop:nth-child(4) {
     transform: scale(0.1) translate(2059px, 928px);
-
   }
+
   .drop:nth-child(5) {
     transform: scale(0.4) translate(395px, 42px);
-
   }
 }
 
@@ -183,30 +197,44 @@ footer p {
   h1 {
     font-size: 5rem;
   }
+
+  header {
+    height: 25vh;
+  }
+
+  main {
+    height: 65vh;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
   .droplets {
     width: 900px;
   }
+
   .drop {
     height: 150px;
     width: 150px;
     top: 67px;
     left: 89px;
   }
+
   .drop:nth-child(2) {
     transform: scale(0.2) translate(1170px, -200px);
-
   }
+
   .drop:nth-child(3) {
     transform: scale(1.2) translate(317px, 114px);
-
   }
+
   .drop:nth-child(4) {
     transform: scale(0.1) translate(2059px, 928px);
-
   }
+
   .drop:nth-child(5) {
     transform: scale(0.4) translate(395px, 42px);
-
   }
 }
 
